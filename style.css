@@ -1,0 +1,37 @@
+body {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+#calculator {
+    position: relative;
+    background-color: gray;
+    border: 2px solid black;
+    min-height: 400px;
+    height: 60%;
+    width: 40%;
+}
+#display {
+    position: relative;
+    text-align: right;
+    
+    background-color: rgb(163, 163, 163);
+    border: 1px solid black;
+    min-height: 40px;
+    margin: 2% 0 0 5%;
+    height: 10%;
+    width: 90%;
+}
+#numbers {
+    position: relative;
+    margin: 5%;
+    width: 60%;
+    height: 75%;
+}
+#operators {
+    position: relative;
+    background-color: rgb(163, 163, 163);
+}
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
